@@ -31,4 +31,11 @@ for(i=1;i<=7;i++){
     
 }
 
+//-----------------------------------------------------------------
 
+//the easiest method (hinted by the book)
+str4="";
+while(str4.length < 7) {
+    str4 = str4 + "!";
+    console.log(str4);
+}   
