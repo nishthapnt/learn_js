@@ -1,20 +1,34 @@
 //printing a triangle pattern using loops
 
 
-let str= "#";
+let str1= "#";
 for(i=1;i<8;i++){
-    console.log(str);
+    console.log(str1);
     for(j=1;j<=1;j++){ //j<=1 this is right. dont do j<=8...thats dumb
-        str=str+"#"
+        str1=str1+"#"
     }
-
 }
-//wuhuuuu i did it
 
-// #
-// ##
-// ###
-// ####
-// #####
-// ######
-// #######
+//-----------------------------------------------------------------
+
+let str2= "";
+for(i=1;i<8;i++){
+    
+    for(j=1;j<=1;j++){
+        str2=str2+"*"
+    }
+    console.log(str2);
+}
+
+//-----------------------------------------------------------------
+
+let str3= "";
+for(i=1;i<=7;i++){
+    str3=str3+"@"
+    for(j=1;j<=1;j++){
+        console.log(str3);
+    }
+    
+}
+
+
