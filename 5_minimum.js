@@ -1,3 +1,6 @@
+
+
+
 function minimum(arr){
     let min = arr[0];
     if (arr.length==0){
