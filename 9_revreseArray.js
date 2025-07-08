@@ -1,6 +1,6 @@
 //array reversal by returning new array
 
-function reverseArray(arr){
+function reverseArray(arr){  // pure function (has no side effects) 
     newArr=[];
     for(let i=arr.length-1;i>=0;i--){
             newArr.push(arr[i]);
@@ -12,7 +12,7 @@ let arr1=[1,2,3,4,5];
 console.log(reverseArray(arr1));
 
 
-
+//reversal in the same array by swapping  
 function reverseArrayInPlace(arr){
     for(let i=0;i< Math.floor(arr.length/2);i++){
         let temp;
