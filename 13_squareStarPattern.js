@@ -1,8 +1,9 @@
 //square star pattern
-// ****
-// ****
-// ****
-// ****
+// * * * * * 
+// * * * * * 
+// * * * * * 
+// * * * * * 
+// * * * * * 
 
 function squareStarPattern(num){
     
